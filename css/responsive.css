@@ -452,6 +452,8 @@ ul.link li {
 @media (max-width: 360px)  {
 
     .number_contact{
-        width:43%
+        width:40%;
+        position:relative;
+        right:-1.5em;
     }
 }
