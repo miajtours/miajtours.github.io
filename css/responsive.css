@@ -144,7 +144,7 @@
 .book_bt a:hover { color: #000; padding: 0px; background: transparent;}
 .book_bt_2 a:hover { color: #000;  background: transparent; padding: 0px; }
 .send_bt a { width: 45%; }
-.number_contact a{position:relative; right:5px;width:40%}
+.number_contact a{width:40%}
 
 
 
@@ -447,4 +447,11 @@ ul.link li {
 .book_bt_2 a:hover { color: #000;  background: transparent; padding: 0px; }
 
 
+}
+
+@media (max-width: 360px)  {
+
+    .number_contact{
+        width:40%
+    }
 }
